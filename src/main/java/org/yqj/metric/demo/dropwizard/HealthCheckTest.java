@@ -1,4 +1,4 @@
-package org.yqj.metric.demo.dropwizard.core;
+package org.yqj.metric.demo.dropwizard;
 
 import com.codahale.metrics.health.HealthCheck;
 import com.codahale.metrics.health.HealthCheckRegistry;
