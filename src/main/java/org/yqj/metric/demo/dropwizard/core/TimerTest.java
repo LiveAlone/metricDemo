@@ -10,20 +10,20 @@ import org.yqj.metric.demo.dropwizard.CommonConstant;
  */
 public class TimerTest {
 
-    public static void main(String[] args) throws Exception{
-        MetricRegistry metricRegistry  = new MetricRegistry();
-
-        CommonConstant.ConsoleReport(metricRegistry);
-
-//         Timer 的统计配置方式
-        Timer timer = metricRegistry.timer(MetricRegistry.name(MetersTest.class, "responses"));
-        for (int i=0; i<10; i++){
-            Context context = timer.time();
-            Thread.sleep(10 * 1000);
-            context.stop();
-        }
-
-        CommonConstant.waitSeconds(600);
-    }
+//    public static void main(String[] args) throws Exception{
+//        MetricRegistry metricRegistry  = new MetricRegistry();
+//
+//        CommonConstant.ConsoleReport(metricRegistry);
+//
+////         Timer 的统计配置方式
+//        Timer timer = metricRegistry.timer(MetricRegistry.name(MeterTest.class, "responses"));
+//        for (int i=0; i<10; i++){
+//            Context context = timer.time();
+//            Thread.sleep(10 * 1000);
+//            context.stop();
+//        }
+//
+//        CommonConstant.waitSeconds(600);
+//    }
 
 }

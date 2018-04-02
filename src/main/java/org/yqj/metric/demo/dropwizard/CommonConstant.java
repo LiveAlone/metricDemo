@@ -11,23 +11,23 @@ import java.util.concurrent.TimeUnit;
  */
 public class CommonConstant {
 
-    public static void main(String[] args) {
-        MetricRegistry metricRegistry = new MetricRegistry();
-
-        CommonConstant.ConsoleReport(metricRegistry);
-
-//        CounterTest.addCounter(metricRegistry);
-
-//        MeterTest.addMeter(metricRegistry);
-
-//        TimeTest.timeTest(metricRegistry);
-
-//        HistogramTest.histogramAdd(metricRegistry);
-
-        GaugeTest.gaugeAdd(metricRegistry);
-
-        CommonConstant.waitSeconds(60);
-    }
+//    public static void main(String[] args) {
+//        MetricRegistry metricRegistry = new MetricRegistry();
+//
+//        CommonConstant.ConsoleReport(metricRegistry);
+//
+////        CounterTest.addCounter(metricRegistry);
+//
+////        MeterTest.addMeter(metricRegistry);
+//
+////        TimeTest.timeTest(metricRegistry);
+//
+////        HistogramTest.histogramAdd(metricRegistry);
+//
+//        GaugeTest.gaugeAdd(metricRegistry);
+//
+//        CommonConstant.waitSeconds(60);
+//    }
 
     public static void ConsoleReport(MetricRegistry metricRegistry){
         ConsoleReporter reporter = ConsoleReporter.forRegistry(metricRegistry)
