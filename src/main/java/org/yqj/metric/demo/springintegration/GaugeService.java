@@ -22,5 +22,4 @@ public class GaugeService {
     public int getCount(){
         return count;
     }
-
 }
