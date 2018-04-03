@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 @Slf4j
 public class CounterService {
 
-    @Counted(name = "method.name.counter.request", absolute = true, monotonic = true)
+    @Counted(name = "method.name.counter.request", monotonic = true)
     public void counterRequest(){
         log.info("found counter request receiver");
     }
