@@ -50,12 +50,18 @@
             <version>${metrics.version}</version>
         </dependency>
 
-        <!--dropwizard servlet config -->
         <dependency>
             <groupId>io.dropwizard.metrics</groupId>
-            <artifactId>metrics-servlets</artifactId>
+            <artifactId>metrics-log4j2</artifactId>
             <version>${metrics.version}</version>
         </dependency>
+
+        <!--dropwizard servlet config -->
+        <!--<dependency>-->
+            <!--<groupId>io.dropwizard.metrics</groupId>-->
+            <!--<artifactId>metrics-servlets</artifactId>-->
+            <!--<version>${metrics.version}</version>-->
+        <!--</dependency>-->
 
         <!--  split   -->
 

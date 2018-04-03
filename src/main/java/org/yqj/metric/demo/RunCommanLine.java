@@ -18,18 +18,9 @@ import org.yqj.metric.demo.springintegration.TimerBean;
 @Slf4j
 public class RunCommanLine implements CommandLineRunner{
 
-    @Autowired
-    private TimerBean timerBean;
-
     public void run(String... args) throws Exception {
         log.info(" command info run");
         System.out.println("now command line run ");
         System.out.println("args content is " + Lists.newArrayList(args).toString());
-
-        for (int i=0; i<50; i++){
-            timerBean.consume();
-        }
-
-        System.out.println("finish consume");
     }
 }

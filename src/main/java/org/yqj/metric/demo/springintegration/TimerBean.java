@@ -10,7 +10,7 @@ import java.util.concurrent.ThreadLocalRandom;
 /**
  * Created by yaoqijun on 2017-09-04.
  */
-@Component
+//@Component
 public class TimerBean {
 
     private static final Logger logger = LoggerFactory.getLogger(TimerBean.class);
