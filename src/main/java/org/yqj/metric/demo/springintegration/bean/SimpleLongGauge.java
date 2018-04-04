@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 public class SimpleLongGauge implements Gauge<Long> {
     private volatile long value;
 
-    private SimpleLongGauge() {
+    public SimpleLongGauge() {
         this.value = 0;
     }
 

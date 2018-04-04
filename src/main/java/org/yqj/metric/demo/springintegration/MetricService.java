@@ -17,7 +17,11 @@ public class MetricService {
     @Autowired
     private SimpleLongGauge simpleLongGauge;
 
+    @Metric(name = "field.name.metric.count2", absolute = true)
+    private SimpleLongGauge simpleLongGauge2 = new SimpleLongGauge();
+
     public void configAddMetric(long value){
         simpleLongGauge.setValue(value);
+        simpleLongGauge2.setValue(value);
     }
 }
