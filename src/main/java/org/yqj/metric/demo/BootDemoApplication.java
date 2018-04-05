@@ -19,7 +19,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class BootDemoApplication {
     public static void main(String[] args) {
         new SpringApplicationBuilder()
-                .banner(new DemoBanner())
                 .sources(BootDemoApplication.class)
                 .run(args);
     }

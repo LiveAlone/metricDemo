@@ -9,7 +9,7 @@ import org.yqj.metric.demo.springintegration.bean.SimpleLongGauge;
 /**
  * @author yaoqijun on 2018-04-03.
  */
-@Service
+//@Service
 @Slf4j
 public class MetricService {
 

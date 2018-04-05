@@ -1,4 +1,4 @@
-package org.yqj.metric.demo;
+package org.yqj.metric.demo.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
@@ -13,7 +13,7 @@ import java.util.concurrent.ThreadLocalRandom;
 /**
  * @author yaoqijun on 2018-04-03.
  */
-@Controller
+//@Controller
 public class MetricController {
 
     @Autowired

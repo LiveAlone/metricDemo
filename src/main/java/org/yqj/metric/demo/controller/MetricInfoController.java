@@ -1,4 +1,4 @@
-package org.yqj.metric.demo;
+package org.yqj.metric.demo.controller;
 
 import com.codahale.metrics.MetricRegistry;
 import lombok.extern.slf4j.Slf4j;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 /**
  * @author yaoqijun on 2018-04-03.
  */
-@Controller
+//@Controller
 @Slf4j
 public class MetricInfoController {
 
