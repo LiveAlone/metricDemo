@@ -23,7 +23,7 @@ public class MetricConfiguration extends MetricsConfigurerAdapter {
     @Override
     public void configureReporters(MetricRegistry metricRegistry) {
         registerReporter(ConsoleReporter.forRegistry(metricRegistry).build())
-                .start(5, TimeUnit.SECONDS);
+                .start(10, TimeUnit.SECONDS);
     }
 
     @Override

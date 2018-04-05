@@ -11,7 +11,7 @@ import org.yqj.metric.demo.springintegration.CounterService;
 /**
  * @author yaoqijun on 2018-04-03.
  */
-@Controller
+//@Controller
 public class CounterController {
 
     @Autowired
