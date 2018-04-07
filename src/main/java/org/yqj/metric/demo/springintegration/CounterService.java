@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 /**
  * @author yaoqijun on 2018-04-03.
  */
-//@Service
+@Service
 @Slf4j
 public class CounterService {
 
