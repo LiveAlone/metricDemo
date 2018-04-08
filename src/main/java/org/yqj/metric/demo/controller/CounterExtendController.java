@@ -6,22 +6,21 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.yqj.metric.demo.springintegration.CounterService;
+import org.yqj.metric.demo.springintegration.CounterExtendService;
 
 /**
- * @author yaoqijun on 2018-04-03.
+ * @author yaoqijun on 2018-04-08.
  */
-//@Controller
-public class CounterController {
+@Controller
+public class CounterExtendController {
 
     @Autowired
-    private CounterService counterService;
+    private CounterExtendService counterExtendService;
 
-    @RequestMapping(value = "/counter_request", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/counter_extend_request", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public String countRequest(){
-        counterService.counterRequest();
-        return "counterRequest";
+        counterExtendService.counterAddRequest();
+        return "counterExtendRequest";
     }
-
 }
