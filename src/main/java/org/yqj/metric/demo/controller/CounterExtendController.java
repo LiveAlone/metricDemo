@@ -11,7 +11,7 @@ import org.yqj.metric.demo.springintegration.CounterExtendService;
 /**
  * @author yaoqijun on 2018-04-08.
  */
-@Controller
+//@Controller
 public class CounterExtendController {
 
     @Autowired

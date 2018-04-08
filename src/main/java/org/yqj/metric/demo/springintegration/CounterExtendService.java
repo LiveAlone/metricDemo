@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.LongAdder;
 /**
  * @author yaoqijun on 2018-04-08.
  */
-@Service
+//@Service
 @Slf4j
 public class CounterExtendService {
 
